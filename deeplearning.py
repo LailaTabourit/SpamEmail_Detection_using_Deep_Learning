@@ -9,29 +9,7 @@ Original file is located at
 #  ***Import Necessary Libraries***
 """
 
-# Commented out IPython magic to ensure Python compatibility.
-# Importing necessary libraries
-import numpy as np        # For numerical operations
-import pandas as pd       # For data manipulation and analysis
-#import matplotlib.pyplot as plt  # For data visualization
-# %matplotlib inline
-#import plotly.express as px
-#import plotly.graph_objects as go
-import re
-import string
-# Importing NLTK for natural language processing
-import nltk
-nltk.download('punkt')
-from nltk.corpus import stopwords    # For stopwords
-from nltk.tokenize import word_tokenize
-from keras.preprocessing.text import Tokenizer # for Tokenize the text
-import tensorflow as tf
-from tensorflow.keras.preprocessing.sequence import pad_sequences
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Embedding, LSTM, Dense
 
-# Downloading NLTK data
-nltk.download('stopwords')   # Downloading stopwords data
 
 """
 # ***1. Loading Data 💎***
