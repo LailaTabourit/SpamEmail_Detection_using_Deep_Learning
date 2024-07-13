@@ -11,28 +11,7 @@ Original file is located at
 
 
 
-"""
-# ***1. Loading Data 💎***
 
----
-
-
-
----
-
-"""
-
-#Defining all our palette colours
-primary_blue = "#496595"
-primary_blue2 = "#85a1c1"
-primary_blue3 = "#3f4d63"
-primary_grey = "#c6ccd8"
-primary_black = "#202022"
-primary_bgcolor = "#f4f0ea"
-
-primary_green = px.colors.qualitative.Plotly[2]
-
-"""### ***Load the data***"""
 
 from google.colab import driveS
 drive.mount("/content/drive")
