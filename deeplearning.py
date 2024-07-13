@@ -277,7 +277,6 @@ plt.show()
 
 """* Top words for HAM and SPAM messages"""
 
-!pip install wordcloud
 
 from wordcloud import WordCloud
 
